@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ecad5d74-111c-4a35-ad05-1ac436e3e637" name="Changes" comment="create UserRepository">
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+    <list default="true" id="ecad5d74-111c-4a35-ad05-1ac436e3e637" name="Changes" comment="create TransactionService">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/picpaysimplificado/dtos/NotificationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/picpaysimplificado/dtos/TransactionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/picpaysimplificado/services/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/picpaysimplificado/domain/transaction/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/picpaysimplificado/domain/transaction/Transaction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Record" />
         <option value="Class" />
       </list>
     </option>
@@ -121,7 +127,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694902124846</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create TransactionRepository">
+      <option name="closed" value="true" />
+      <created>1694984666522</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694984666522</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create UserService">
+      <option name="closed" value="true" />
+      <created>1694985340959</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694985340959</updated>
+    </task>
+    <task id="LOCAL-00008" summary="create TransactionService">
+      <option name="closed" value="true" />
+      <created>1694987608622</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694987608622</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,7 +168,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Initial config" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial config" />
+    <MESSAGE value="create TransactionRepository" />
+    <MESSAGE value="create UserService" />
+    <MESSAGE value="create TransactionService" />
+    <option name="LAST_COMMIT_MESSAGE" value="create TransactionService" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
